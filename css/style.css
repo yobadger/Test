@@ -1,0 +1,204 @@
+*{
+	margin:0 auto 0 auto;
+	text-align:left;
+}
+body{
+	margin:0;
+	padding:0:
+	text-align:left;
+	font-size:13px;
+	font-family:helvetica,comic-sans,arial;
+	color:#ff4298;
+	background-color:black;
+	background-image:url(../image/gradient.png);
+}
+a{
+	text-decoration:none;
+}
+table,tr,td,th{
+	margin:0;
+}
+
+table{
+	padding:10px 0;
+	
+}
+
+th{
+	text-align:center;
+}
+
+td{
+	padding:5px 20px;
+	font-size:110%;
+}
+
+h2{
+	color:#1984fe;
+	padding-bottom:10px;
+}
+
+h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0;
+}
+
+h4{
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:7px;
+}
+
+p{
+	margin:10px 0;
+	line-height:1.7em;
+}
+
+label{
+	display:inline-block;
+	width:150px;
+}
+
+#container{
+	width:960px;
+}
+
+header{
+	width:960px;
+	height:85px;
+}
+header h1{
+	color:#fda54b;
+	float:left;
+	font-size:43px;
+	padding:20px 0 0 20px;
+}
+
+header h2{
+	float:right;
+	color:#2c86f4;
+	padding:40px 20px 0 0;
+}
+
+#blue-text{
+	color:#5efc4b;
+}
+header h2 span.white-text{
+	color:#fda54b;
+}
+
+#menu{
+	display:block;
+	float:left;
+	clear:both;
+	width:960px;
+	height:54px
+}
+#menu ul{
+	list-style:none;
+	padding:0;
+	padding-top:10px;
+	margin-left:auto;
+	width:960px;
+}
+
+#menu li{
+	list-style:none;
+	padding:0;
+	display:inline;	
+}
+
+#menu li a, #menu li a:visited{
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 30px 20px 13px;
+
+}
+
+#leftmenu{
+	margin-top:15px;
+	width:190px;
+	float:left;
+	background-color:#ffff9f;
+	border-radius:10px;
+	clear:both;
+	padding:15px 20px 20px 10px;
+}
+
+#leftmenu ul{
+	list-style:none;
+	padding:0;
+}
+
+#leftmenu h3{
+	padding:0;
+	padding-bottom:8px;
+	border-bottom:#ff4298 solid 2px;
+}
+
+#leftmenu li{
+	list-style:none;
+	padding:15px 0 8px 0;
+	border-bottom:1px dashed  #ff4298
+}
+
+#leftmenu a,#leftmenu a:visited{
+	color:#5efc4b;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+}
+
+section{
+	display:block;
+	width:680px;
+	margin-top:15px;
+	float:left;
+	background:white;
+	border-radius:10px;
+	border:6px solid #fffe67;
+	padding:15px;
+	margin-left:15px;
+}
+
+.float{
+	float:right;
+	margin:15px;
+}
+
+.developer{
+	width:170px;
+	float:right;
+}
+.developer ul{
+	margin-bottom:10px;
+	list-style:none;
+	padding:0;
+}
+
+.developer li{
+	list-style:none;
+	line-height:1.7em;
+}
+
+dev-table tr,table.dev-table td{
+	border-bottom:1px dashed #5efc4b;
+	width:500px;
+	text-align:center;
+}
+
+footer{
+	text-align:center;
+	color:black;
+	background:white;
+	margin-top:20px;
+	padding:10px 0 10px 0;
+}
+
+table.dev-table,table.dev-table tr,table.dev-tabletd td,table.dev-table th{
+	font-size:110%'
+}
