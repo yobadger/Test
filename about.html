@@ -22,6 +22,8 @@
 		</div>
 		</nav>
 
+		<aside>
+		
 		<nav id="leftmenu"> <!--leftmenu start-->
 		<h3>Links</h3>
 		<ul>
@@ -37,6 +39,8 @@
 		</ul>
 		</nav> <!--leftmenu end-->
 		
+		</aside>
+		
 		<section> <!--section1-->
 		<h2>Welcome to Blue Devloper Directory</h2>
 		<img class="float" src="image/web.jpg" alt="web developer directory">
@@ -44,6 +48,40 @@
 			<p>We are a fictional website and servicethat list top web developers around the world.Search and browse fictional web developers on our wesite absolutely FREE</p>
 		<h3>Whart Skill Our Developers Have?</h3>
 			<p>Our listed fictional web developers skill ranges from Graphic design with Photoshop,Illustartor and Firework to markup language like HTML5,XHTML and XML to programimg languages such as Javascript,PHP,Python and ASP.</p>
+			<video id = "ad" width = "500" height="350" controls>
+				<source src="video/video.mp4" type="video/mp4">
+				Please updatw your browser
+			</video>
+<div style="width:400px;">
+	<button onclick="playPause()">Play/Pause</button>
+	<button onclick="makeBig()">Big</button>
+	<button onclick="makeSmall()">Small</button>
+	<button onclick="makeNormal()">Normal</button>
+</div>
+	
+<script>
+	var myvideo = document.getElementById('ad');
+	
+	function playPause() {
+		if (myvideo.paused){
+			myvideo.play();
+	} else {
+		myvideo.pause();
+	}
+	}
+	
+	function makeBig(){
+		myvideo.width=560;
+	}
+	
+	function makeSmall(){
+		myvideo.width=320;
+	}
+	
+	function makeNormal(){
+		myvideo.width=420;
+	}
+</script>
 		</section> <!--section end-->
 
 	</div><!--container-->
